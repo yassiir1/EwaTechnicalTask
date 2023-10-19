@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EWATask", "EWATask\EWATask.csproj", "{6505F58A-1B9C-4991-B276-982C59890771}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EWATask", "EWATask\EWATask.csproj", "{6505F58A-1B9C-4991-B276-982C59890771}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CORE", "CORE\CORE.csproj", "{E3096616-F470-4F98-9C56-81906E9192DD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyConnections", "MyConnections\MyConnections.csproj", "{F058EFF2-10B4-4D28-A8E7-145333224DF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6695523C-A0BC-4ED4-AF86-2ECB1570D2E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EWATask.Test", "Tests\EWATask.Test\EWATask.Test.csproj", "{DA9997C8-114B-4753-B0D1-3A22A767B08B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +23,24 @@ Global
 		{6505F58A-1B9C-4991-B276-982C59890771}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6505F58A-1B9C-4991-B276-982C59890771}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6505F58A-1B9C-4991-B276-982C59890771}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3096616-F470-4F98-9C56-81906E9192DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3096616-F470-4F98-9C56-81906E9192DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3096616-F470-4F98-9C56-81906E9192DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3096616-F470-4F98-9C56-81906E9192DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F058EFF2-10B4-4D28-A8E7-145333224DF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F058EFF2-10B4-4D28-A8E7-145333224DF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F058EFF2-10B4-4D28-A8E7-145333224DF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F058EFF2-10B4-4D28-A8E7-145333224DF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA9997C8-114B-4753-B0D1-3A22A767B08B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA9997C8-114B-4753-B0D1-3A22A767B08B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA9997C8-114B-4753-B0D1-3A22A767B08B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA9997C8-114B-4753-B0D1-3A22A767B08B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DA9997C8-114B-4753-B0D1-3A22A767B08B} = {6695523C-A0BC-4ED4-AF86-2ECB1570D2E7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AB2E96BB-3DCD-47B0-A66C-D72E323E7B17}
